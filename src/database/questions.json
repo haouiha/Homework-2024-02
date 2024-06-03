@@ -1,0 +1,122 @@
+[
+  {
+    "id": "question-1",
+    "question": "What is the capital of France?",
+    "choices": ["London", "Paris", "Berlin", "Rome"],
+    "answer": "Paris"
+  },
+  {
+    "id": "question-2",
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "choices": ["Harper Lee", "J.K. Rowling", "Stephen King", "Mark Twain"],
+    "answer": "Harper Lee"
+  },
+  {
+    "id": "question-3",
+    "question": "What is the chemical symbol for water?",
+    "choices": ["H2O", "CO2", "NaCl", "O2"],
+    "answer": "H2O"
+  },
+  {
+    "id": "question-4",
+    "question": "What is the tallest mountain in the world?",
+    "choices": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
+    "answer": "Mount Everest"
+  },
+  {
+    "id": "question-5",
+    "question": "Who painted the Mona Lisa?",
+    "choices": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo"],
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "id": "question-6",
+    "question": "What is the chemical symbol for gold?",
+    "choices": ["Au", "Ag", "Fe", "Cu"],
+    "answer": "Au"
+  },
+  {
+    "id": "question-7",
+    "question": "What is the largest planet in our solar system?",
+    "choices": ["Saturn", "Jupiter", "Neptune", "Mars"],
+    "answer": "Jupiter"
+  },
+  {
+    "id": "question-8",
+    "question": "Who is credited with discovering gravity?",
+    "choices": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+    "answer": "Isaac Newton"
+  },
+  {
+    "id": "question-9",
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "choices": ["China", "South Korea", "Japan", "Vietnam"],
+    "answer": "Japan"
+  },
+  {
+    "id": "question-10",
+    "question": "What is the chemical symbol for oxygen?",
+    "choices": ["O", "O2", "O3", "CO2"],
+    "answer": "O"
+  },
+  {
+    "id": "question-11",
+    "question": "Who composed the 'Moonlight Sonata'?",
+    "choices": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Frédéric Chopin"],
+    "answer": "Ludwig van Beethoven"
+  },
+  {
+    "id": "question-12",
+    "question": "What is the largest ocean on Earth?",
+    "choices": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "answer": "Pacific Ocean"
+  },
+  {
+    "id": "question-13",
+    "question": "Who wrote '1984'?",
+    "choices": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "H.G. Wells"],
+    "answer": "George Orwell"
+  },
+  {
+    "id": "question-14",
+    "question": "What is the chemical symbol for carbon?",
+    "choices": ["C", "Ca", "Co", "Cu"],
+    "answer": "C"
+  },
+  {
+    "id": "question-15",
+    "question": "Which planet is known as the Red Planet?",
+    "choices": ["Mars", "Venus", "Mercury", "Saturn"],
+    "answer": "Mars"
+  },
+  {
+    "id": "question-16",
+    "question": "Who is known as the Father of Computers?",
+    "choices": ["Charles Babbage", "Alan Turing", "Ada Lovelace", "Bill Gates"],
+    "answer": "Charles Babbage"
+  },
+  {
+    "id": "question-17",
+    "question": "What is the chemical symbol for silver?",
+    "choices": ["Ag", "Au", "Pt", "Fe"],
+    "answer": "Ag"
+  },
+  {
+    "id": "question-18",
+    "question": "Which planet is closest to the Sun?",
+    "choices": ["Venus", "Mercury", "Earth", "Mars"],
+    "answer": "Mercury"
+  },
+  {
+    "id": "question-19",
+    "question": "Who wrote 'The Great Gatsby'?",
+    "choices": ["F. Scott Fitzgerald", "Ernest Hemingway", "John Steinbeck", "T.S. Eliot"],
+    "answer": "F. Scott Fitzgerald"
+  },
+  {
+    "id": "question-20",
+    "question": "What is the chemical symbol for sodium?",
+    "choices": ["Na", "Ni", "Si", "Mg"],
+    "answer": "Na"
+  }
+]
