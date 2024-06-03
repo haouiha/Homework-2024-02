@@ -1,9 +1,9 @@
 import styled from 'styled-components/native';
 
-const ButtonBox = styled.TouchableOpacity`
+const ButtonBox = styled.TouchableOpacity<{ disabled: boolean }>`
   margin-top: 40px;
   height: 60px;
-  background-color: #0c2d57;
+  background-color: ${({ disabled }) => (disabled ? '#dddddd' : '#0c2d57')};
   border-radius: 16px;
   justify-content: center;
   align-items: center;
@@ -18,11 +18,12 @@ const ButtonText = styled.Text`
 type MainButtonProps = {
   onPress: () => void;
   title: string;
+  disabled?: boolean;
 };
 
-const MainButton: React.FC<MainButtonProps> = ({ onPress, title }) => {
+const MainButton: React.FC<MainButtonProps> = ({ onPress, title, disabled = false }) => {
   return (
-    <ButtonBox onPress={onPress}>
+    <ButtonBox onPress={onPress} disabled={disabled}>
       <ButtonText>{title}</ButtonText>
     </ButtonBox>
   );

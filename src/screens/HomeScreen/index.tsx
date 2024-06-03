@@ -1,21 +1,23 @@
-import { useIsFocused, useNavigation } from '@react-navigation/native';
-import { ScrollView } from 'react-native';
-import questions from '../../database/questions.json';
-import { FormProvider, useForm } from 'react-hook-form';
-import { shuffleArray } from '../../utils/suffleArray';
 import { useEffect, useRef, useState } from 'react';
+import { ScrollView } from 'react-native';
+import { useIsFocused, useNavigation } from '@react-navigation/native';
+import { FormProvider, useForm } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers/yup';
+import { shuffleArray } from '../../utils/suffleArray';
+import questions from '../../database/questions.json';
 import { FormQuestions, Question } from '../../types/question';
 import QuestionBox from '../../components/QuestionBox';
 import HeaderTitle from '../../components/HeaderTitle';
 import MainButton from '../../components/MainButton';
 import ScreenContainer from '../../components/ScreenContainer';
+import { formQuestionsSchema } from '../../schemas/question';
 
 const HomeScreen: React.FC = () => {
   const navigation = useNavigation();
   const isFocused = useIsFocused();
 
   const viewRef = useRef<ScrollView>(null);
-  const methods = useForm();
+  const methods = useForm({ resolver: yupResolver(formQuestionsSchema) });
   const [shuffledQuestions, setShuffledQuestions] = useState<Question[]>([]);
 
   const suffleQuestions = () => {
@@ -58,7 +60,7 @@ const HomeScreen: React.FC = () => {
           />
         ))}
 
-        <MainButton onPress={methods.handleSubmit(onSubmit)} title="Submit" />
+        <MainButton onPress={methods.handleSubmit(onSubmit)} title="Submit" disabled={!methods.formState.isValid} />
       </FormProvider>
     </ScreenContainer>
   );
