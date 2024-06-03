@@ -1,3 +1,7 @@
+# Preview
+
+[![Watch the video](https://previews.jumpshare.com/thumb/815bc01b796dd6f1733c957c5af194938c507ba7cb7060cee002671fb29994e57caeb8d812445d999710157bc53d621327fbadf706bacd3faedfbd2188f079a6210f3ec72ba75db38f88e1bec2af197df0313c21e655e65e4017a18ad3448cc6)](https://jumpshare.com/embed/OJydxj1s7q2vDIyP4ucQ)
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
